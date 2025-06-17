@@ -1,6 +1,6 @@
-# Write a Book Flow
+# Write Harry Potter Book using Flow
 
-Welcome to the Book Writing Flow, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the Flow for Book Writing, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Overview
 
@@ -13,6 +13,8 @@ This flow will guide you through the process of writing a book by leveraging mul
 3. **Join and Save Chapters**: In the final step, the flow will combine all the chapters into a single markdown file, creating a complete book. This file will be saved in the root folder of your project.
 
 By following this flow, you can efficiently produce a well-structured and comprehensive book, leveraging the power of multiple AI agents to handle different aspects of the writing process.
+
+We provide the essential prompts to create a book with adventures, describe adult life of Harry as an Auror and family man and his duels with dark wizards.
 
 ## Installation
 
@@ -55,7 +57,9 @@ nohup python3 write_a_book_with_flows/main.py >> out.log 2> out.err &
 
 This command initializes the write_a_book_with_flows Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-When you kickstart the flow, it will orchestrate multiple crews to perform the tasks. The flow will first generate a book outline, then create and run a crew for each chapter, and finally join all the chapters into a single markdown file.
+When you run the above commands, it will orchestrate multiple crews to perform the tasks. 
+
+The flow will first generate a book outline, then create and run a crew for each chapter, and finally join all the chapters into a single markdown file.
 
 ## Understanding Your Flow
 
@@ -73,7 +77,7 @@ By understanding the flow structure, you can see how multiple crews are orchestr
 
 ## Support
 
-For support, questions, or feedback regarding the {{crew_name}} Crew or crewAI.
+For support, questions, or feedback reach out to raghvendramall@ieee.org.
 
-- Visit our [documentation](https://docs.crewai.com)
+- Visit CrewAI [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
