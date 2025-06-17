@@ -1,0 +1,5 @@
+.env
+__pycache__/
+.DS_Store
+src/.env
+src/write_a_book_with_flows/.env
