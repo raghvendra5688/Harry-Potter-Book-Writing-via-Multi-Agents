@@ -1,6 +1,6 @@
 # Write Harry Potter Book using Flow
 
-This flow is powered by [crewAI](https://crewai.com). The designed framework sets up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal was to have collaborative agents with some agents working for book outline and other agents wearing the hat of researcher. The researcher crew researchers and writes each chapter. Specific prompts to maintain cohesiveness of the chapters along with what all materials to cover are provided. 
+This flow is powered by [crewAI](https://crewai.com). The design sets up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal was to have collaborative agents with some agents working for book outline and other agents wearing the hat of researcher. The researcher crew researchers and writes each chapter. Specific prompts to maintain cohesiveness of the chapters along with what all materials to cover are provided. 
 
 ## Overview
 
